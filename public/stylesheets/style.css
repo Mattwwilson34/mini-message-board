@@ -1,8 +1,29 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 30vw;
+}
+
+.message {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.user {
+  font-style: italic;
+}
+
+.date {
+  font-size: 0.5rem;
 }
